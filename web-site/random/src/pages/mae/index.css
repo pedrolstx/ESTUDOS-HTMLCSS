@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    margin-top: 435px;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 18px 43px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    font: 30px 'fonte1';
+    color: #000;
+    border-radius: 50px;
+}

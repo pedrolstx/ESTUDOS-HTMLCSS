@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+    .cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #a2f705b4;
+    height:40vh ;
+    }
+    
+    .q-1 div{
+    display: flex;
+    flex-direction: column;
+    background-color: #0f52e2;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    
+    
+    }
+    
+    .meio{
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(240, 207, 207);
+    
+    }

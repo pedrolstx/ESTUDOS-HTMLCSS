@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'roupas400';
+    src: url('boing-400.woff2');
+}
+@font-face {
+    font-family: 'roupas500';
+    src: url('boing-500.woff2');
+}
+ .imagem {
+    margin: 0px;
+    width: 1510px;
+    height: 500px;
+    background-image: url('https://img.freepik.com/vetores-gratis/modelo-de-banner-de-venda-horizontal-gradiente-com-foto_23-2149014887.jpg?w=826&t=st=1676506509~exp=1676507109~hmac=7ebee9c6a341c46acbb35a5b84897fe7c058f027124ea1574a31ea1a1124d2ee');
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+ }
+
+ .divlook{
+    width: 1510px;
+    margin: 0px;
+    color: #f5aeba;
+    background-color: gainsboro;
+    padding: 50px;
+ }
+
+ .divlook h1 {
+    text-align: center;
+    font: 56px 'roupas500';
+ }
+
+ .divlook p {
+    margin: 5px;
+    font: 32px 'roupas400';
+    color: black;
+    margin-bottom: 0px;
+ }
+
+ .divlook h2{
+    font: 42px 'roupas400';
+    margin-top: 50px;
+    color: rgb(247, 146, 135);
+ }
+
+ select{
+    background-color: rgb(252, 218, 225);
+
+border-radius: 50px;
+padding: 10px 40px;
+font: 20px 'roupas400';
+
+ }
+
+ button{
+   margin-top: 60px;
+   border-radius: 50px;
+   font: 20px 'roupas500';
+   padding: 10px 40px;
+   background-color: #ee8282;
+   margin-left: 600px;
+   cursor: pointer;
+   border: none;
+   
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color: #58adf1;
+}
+
+.bola1 {
+    display: flex;
+    align-self: flex-start;
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    background-color: #9011e6b4;
+    
+}
+
+.bola2 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    border-radius: 100%;
+    width: 320px;
+    height: 320px;
+    background-color: #9011e6b4;
+   
+}
+
+.bola3 {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    border-radius: 100%;
+    width: 320px;
+    height: 320px;
+    background-color: #9011e6b4;
+    
+}

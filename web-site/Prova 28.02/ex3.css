@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.principal {
+    background-color: #58adf1;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    border: 8px solid purple;   
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.retangulo1 {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    border: 5px solid purple;
+    height: 300px;
+    width: 150px;
+}
+
+.bola {
+    display: flex;
+    align-self: center;
+    width: 300px;
+    align-items: center;
+    height: 300px;
+    border-radius: 100%;
+    background-color: blueviolet;
+}
+
+.retangulo2 {
+    display: flex;
+    display: flex;
+    align-self: center;
+    align-items: flex-end;
+    border: 5px solid purple;
+    height: 300px;
+    width: 150px;
+}

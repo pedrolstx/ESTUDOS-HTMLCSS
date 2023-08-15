@@ -1,0 +1,29 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.cabecario {
+    height: 15vh;
+    width: 100vw;
+    background-color: #817fff;
+}
+
+.conteudo {
+    height: 70vh;
+    width: 100vw;
+    background-color: #cee40a;
+}
+
+.rodape {
+    height: 15vh;
+    width: 100vw;
+    background-color: #0e4bf1;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s1cabecalho {
+    display: flex;
+}
+
+.s1cabecalho #azul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: #00ffff;
+    width: 100%;
+    height: 100px;
+}
+
+.preto1 {
+    display: flex;
+    margin: 20px 20px;
+    width: 70px;
+    height: 70px;
+
+    background-color: gray;
+
+}
+
+.s1meio {
+    display: flex;
+}
+
+.s1meio #roxo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    background-color: #c783c7;
+    width: 30%;
+    height: 717px;
+}
+
+.preto2 {
+    display: flex;
+    margin: 10px 10px;
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+
+    background-color: #00000073;
+}
+
+#idpreto2 {
+    display: flex;
+    margin: 10px 10px;
+    margin-top: 20px;
+    width: 350px;
+    height: 490px;
+
+    background-color: #00000073;
+}
+
+#verdeagua {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #75cdc3;
+    width: 70%;
+    height: 717px;
+} 
+
+
+.preto3 {
+    display: flex;
+
+    width: 350px;
+    height: 350px;
+
+    background-color: #00000073;
+}
+
+.s1rodape {
+    display: flex;
+}
+
+.s1rodape #verde {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #94df7b;
+    width: 100%;
+    height: 100px;
+}
+
+.preto4 {
+    display: flex;
+    margin: 20px 20px;
+    width: 350px;
+    height: 50px;
+
+    background-color: #00000073;
+
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    flex-direction: column;
+
+}
+
+.cabecalho {
+    background-color: #00ffff;
+    height: 10vh;
+    justify-content: flex-end;
+    flex-grow: 1;
+    display: flex;
+    padding: 5px 10px;
+
+}
+
+.quadradinho {
+    background-color: gray;
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.conteudo1{
+   display: flex;
+   flex-direction: row;
+    background-color: #e771e7;
+    height: 45vh;
+    padding: 15px 10px;
+
+}
+
+.quadrado {
+    background-color: gray;
+    width: 315px;
+    height: 290px;
+    margin-left: 20px;
+}
+
+.rodape{
+    height: 45vh;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px 10px;
+}
+
+.quadrado1{
+    background-color: gray;
+    width: 315px;
+    height: 290px;
+    margin-left: 20px
+}

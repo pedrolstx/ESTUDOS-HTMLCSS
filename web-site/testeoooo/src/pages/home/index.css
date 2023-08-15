@@ -1,0 +1,479 @@
+body{
+    background-color: #030328;
+}
+
+
+.secao-0{
+    position: fixed;
+    z-index: 102;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.3);
+    width: 100vw;
+    height: 63px;
+    padding: 8px 32px 8px 16px;
+}
+.secao-0 img{
+    width: 170px;
+    height: auto;
+}
+.secao-0 a{
+    font: 12px 'font6';
+    text-decoration: none;
+    color: white;
+    letter-spacing: .2em;
+    padding: 12.6px 28px;
+}
+.secao-0-cabecalho{
+    margin: 0px 0px 0px 8px;
+}
+.s0-botao{
+    border-radius: 30px;
+    background-color: #b535f6;
+}
+
+.secao-01{
+    background-color: #030328;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.s1-img-principal img{
+    width: 100vw;
+    height: auto;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.s1-bolsonaro{
+    position: relative;
+    top: 10em;
+    left: -24em;
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.s1-conteudo{
+    position: relative;
+    top: 12em;
+    left: -20.7em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.s1-gradiente{
+    margin-left: -10em;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding-right: 60px;
+    color: white;
+    height: 35px;
+    width: 28rem;
+    background-image: linear-gradient( to left, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+}
+.s1-gradiente h1{
+    letter-spacing: 3px;
+    font: 16px 'hbo3' ;
+    color: white;
+}
+.s1-conteudo p{
+    font: 16px 'hbo1';
+    color: #D0B36A;
+    margin-left: 3rem;
+    margin-top: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.s1-conteudo h2{
+    font: 30px 'hbo1';
+    margin: 0px !important;
+    color: #D0B36A;
+    margin-left: 2.7rem !important;
+    margin-top: 45px !important;
+}
+.s1-conteudo h3{
+
+    font: 30px 'hbo2';
+    color: #D0B36A;
+    margin-left: 2.7rem;
+    margin-top: 15px !important;
+    margin-bottom: 10em;
+}
+.s1-conteudo a{
+    position: absolute;
+    z-index: 1328970;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    top: 17rem;
+    width: 17rem;
+    color: white;
+    font: 20px 'hbo1';
+    letter-spacing: 4px;
+    border-radius: 50rem;
+    padding: 14.4px 24px 14px;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+}
+.s1-conteudo a:hover {
+    background-position: 1% 50%;
+    border: 2px solid rgb(198, 0, 255);
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s !important;
+}
+.s1-baitola{
+    position: absolute;
+    z-index: 293012893;
+    top: 21em;
+    font: 15px 'hbo5' !important;
+    color: #D0B36A;
+    letter-spacing: 0px !important;
+    margin-bottom: 100px;
+}
+
+
+
+nav{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 25px 'font5';
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+}
+
+nav h2{
+    color: #fff;
+    text-align: center;
+    font: 21px 'font2';
+    letter-spacing: 2px;
+    width: 1100px;
+    margin-bottom:70px;
+    line-height: 35px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-roxa{
+    background-color: blueviolet;
+    width: 0.15vw;
+    height: 12vh;
+    margin-bottom: 40px;
+}
+
+.info-pers{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-pers div{
+    margin: 0px 40px;
+}
+
+#t1{
+    margin-bottom: 30px;
+    font: 18px 'font5';
+    letter-spacing: 5px;
+
+}
+
+section h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    font: 25px 'font5';
+    letter-spacing: 5px;
+}
+
+
+section h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 25px 'font5';
+    letter-spacing: 5px;
+}
+
+.info-pers img{
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+article div{
+    display: flex;
+    flex-direction: row;
+}
+
+article div div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+article div div img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+article > h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 25px 'font5';
+    letter-spacing: 5px; 
+    margin-bottom: 40px;
+}
+
+article div div h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 20px 'font5';
+    letter-spacing: 5px; 
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+article div div h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    font: 16px 'font2';
+    letter-spacing: 3px;
+    width: 280px;
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+aside div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+aside div img{
+    width: 1000px;
+    
+}
+
+aside h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 25px 'font2';
+    letter-spacing: 5px; 
+    margin-bottom: 40px;
+}
+.secao1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1 > h1{
+    color: #D0B36A;
+    text-align: center;
+    font: 25px 'font2';
+    letter-spacing: 5px; 
+    margin-bottom: 40px;
+}
+.secao1 div img{
+    height: 180px;
+    margin: 20px;
+}
+
+.secao1 div div {
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:900px ;
+}
+
+.f h1{
+    color: #D0B36A;
+    text-align: left;
+    font: 25px 'font2';
+    letter-spacing: 5px; 
+    margin-bottom: 40px;
+    width:400px ;
+}
+
+
+.f h2{
+    color: #fff;
+    text-align: left;
+    margin-bottom: 50px;
+    font: 16px 'font2';
+    letter-spacing: 3px;
+    width:400px ;
+}
+.f a{
+    text-decoration: none;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ultimo{
+    width: 100vw;
+    height: 500px;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+}
+
+.animaisfan > img{
+    height: 20rem !important;
+    width: 1200px;
+    left: 200px;
+    position: relative !important;
+    z-index: 1;  
+
+}
+
+
+
+.bbb{
+    position: absolute;
+    z-index: 1328970;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    top: 10rem;
+    width: 12rem;
+    color: white;
+    font: 15px 'hbo1';
+    letter-spacing: 4px;
+    border-radius: 20rem;
+    padding: 12px 15px 7px;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+}
+
+
+.textc{
+    right: 900px;
+    top: 70px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column !important;
+    height: 150px;
+    width: 300px;
+}
+
+.textc > h1{
+    color: #D0B36A;
+    font: 25px 'hbo2';
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.textc  h2{
+    width: 350px;
+    color: #fff;
+    line-height: 5px;
+    font: 20px 'hbo2'!important;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.p1{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p1 h1{
+    color: #fff;
+    font: 10px 'hbo1';
+    margin-bottom: 10px;
+}
+
+.p2 h2{
+    display: flex;
+    margin: 7px;
+    margin-right: 25px;
+    justify-content: space-between;
+    color: #fff;
+    font: 10px 'hbo1';
+    margin-bottom: 10px;
+}
+
+.solo p{
+    color: #fff;
+    font: 10px 'hbo1';
+    margin-bottom: 10px;
+}
+
+.icone {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icone img{
+    width: 20px;
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

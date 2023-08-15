@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #00c3ff;
+    height: 40vh;
+    width: 100vw;
+}
+
+.cabecalho div {
+    display: flex;
+    height: 140px;
+    width: 140px;
+    background-color: rgb(211, 211, 25);
+    margin: 10px;
+}

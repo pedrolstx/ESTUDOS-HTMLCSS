@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.principal {
+    background-color: #29312d;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9100;
+    width: 370px;
+    height: 370px;
+    rotate: 45deg;
+}
+
+.bola1 {
+    background-color: rgb(255, 0, 0, 0.548);
+    border-radius: 100%;
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    z-index: 1;
+    top: 178px;
+    left: 577px;
+}
+
+.bola2 {
+    background-color: rgb(255, 255, 0, 0.61);
+    border-radius: 100%;
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    right: 577px;
+    top: 178px;
+    z-index: 1;
+}

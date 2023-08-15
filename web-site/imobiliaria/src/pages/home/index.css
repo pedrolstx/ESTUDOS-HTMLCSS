@@ -1,0 +1,422 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid green; */
+}
+
+
+.f1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0px 0px 20px #d8d8d8;
+}
+
+
+.f1 img {
+    height: 40px;
+}
+
+
+.f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 60px 30px;
+}
+
+.f2-textos {
+    width: 480px;
+    min-width: 480px;
+}
+
+.f2-textos h1 {
+    font-size: 53px;
+    line-height: 60px;
+}
+
+.f2-textos h1 span {
+    color: #eb194b;
+}
+
+.f2-textos p {
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+.f2-textos button {
+    border: 2px solid #eb194b;
+    border-radius: 40px;
+    outline: none;
+
+    padding: 20px 30px;
+    background-color: #fff;
+    
+    color: #eb194b;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.f2-textos button:hover {
+    background-color: #eb194b;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+.f2-imagem {
+    align-self: center;
+}
+
+.f2-imagem img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-left: 50px;
+
+    position: relative;
+    top: -50px;
+}
+
+
+
+.f3 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.f3-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #eb194b;
+    color: #fff;
+    padding: 50px 40px 200px 40px;
+
+    width: 100%;
+    max-width: 1000px;
+}
+
+.f3-box h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.f3-form-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+    
+    width: 100%;
+    max-width: 600px;
+}
+
+.f3-form-linha input {
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+    width: 100%;
+    
+    margin: 0px 5px;
+}
+
+.f3-box button {
+    color: #eb194b;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
+.f3-form-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 600px;
+}
+
+.f3-form-radio label {
+    margin: 0px 5px;
+}
+
+.f3-form-radio > div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+
+
+
+.f4 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 70px 20px;
+}
+
+.f4 > h1 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 800px;
+
+    margin-bottom: 60px;
+}
+
+.f4 h1 span {
+    color: #eb194b;
+}
+
+.f4-grupo-cartoes {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px;
+}
+
+.f4-cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    padding: 30px 30px;
+    max-width: 350px;
+
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 15px;
+}
+
+.f4-cartao img {
+    width: 50px;
+
+    position: absolute;
+    top: -25px;
+}
+
+.f4-cartao h1 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+
+    margin-bottom: 15px;
+}
+
+
+.f4-cartao p {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+.f5 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px;
+}
+
+.f5-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.f5-logo {
+    height: 40px;
+}
+
+.f5-redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+.f5-redes-sociais h3 {
+    font-size: 14px;
+}
+
+.f5-icones {
+    display: flex;
+    flex-direction: row;
+}
+
+.f5-icones img {
+    width: 32px;
+}
+
+.f5-aviso {
+    width: 320px;
+}
+
+.f5-aviso h1 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.f5-aviso p {
+    font-size: 12px;
+}
+
+.f5-dev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.f5-dev p {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .f2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f2-textos {
+        min-width: unset;
+        width: unset;
+        max-width: 700px;
+    }
+
+    .f2-textos h1 { 
+        text-align: center;
+        font-size: 30px; 
+        line-height: 35px;
+    }
+
+    .f2-textos p {
+        font-size: 20px;
+    }
+
+    /* .f2-cont-btn {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        padding: 10px;
+        width: 100%;
+        background-color: #eb194b;
+    }*/
+
+    .f2-textos button {
+        /* width: 100%; */
+        display: none;
+    } 
+
+    .f2-imagem img {
+        top: unset;
+        margin-left: unset;
+    }
+
+    .f3-box h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .f4-grupo-cartoes {
+        flex-direction: column;
+        margin: unset;
+        width: 90%;
+    }
+    .f4-cartao {
+        margin: 30px 0px;
+        max-width: unset;
+        width: 100%;
+        align-items: center;
+    }
+
+    .f5-conteudo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .f5-logo {
+        height: 44px;
+    }
+
+    .f5-aviso {
+        width: unset;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .f4 > h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .f2-textos {
+        min-width: unset;
+        width: unset;
+    }
+
+    .f3-form-linha {
+        flex-direction: column;
+        align-items: center;
+        margin: unset;
+    }
+
+    .f3-form-linha input {
+        margin: 10px;
+    }
+
+    .f3-box {
+        padding: 50px 40px;
+    }
+
+}
+
+
